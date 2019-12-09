@@ -1,0 +1,19 @@
+button:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+}
+li>button{
+	border-radius: 50%;
+	color: cornsilk;
+	border-radius: 50%;
+	background-image: url(./bg1.jpg);
+	color: cornsilk;
+}
+input{
+	border-radius: 10px;
+	padding: 5px;
+	border: 1px solid #14141f;
+	margin-right: 10px;
+	border-color: rgb(27, 2, 1);
+	outline: none;
+}
