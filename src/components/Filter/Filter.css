@@ -1,3 +1,26 @@
-i{
-    background: none;
+.btn{
+    background-color: none;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+.btn1:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+}
+.btn1{
+	border-radius: 50%;
+	color: cornsilk;
+	border-radius: 50%;
+	background-image: url(./bg1.jpg);
+	color: cornsilk;
+}
+
+div{
+    text-align: center;
+}
+.search{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: darkmagenta;
 }

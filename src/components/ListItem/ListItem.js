@@ -2,12 +2,13 @@ import React from 'react';
 
 import './ListItem.css';
 
-const ListItem = () => {
-
+const ListItem = ({list}) => {
+    const color = list.isDone ? "#999" : 'orange';
+    const styleData = {color:color};
     return (
-        <li>
+        <li>  
             <input type="checkbox"/>
-            <input type="text" value="Read the article"></input>
+            <span style={styleData}>{list.title}</span>
             <button>Delete</button>
         </li>
     );

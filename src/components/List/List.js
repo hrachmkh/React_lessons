@@ -3,12 +3,17 @@ import ListItem from '../ListItem';
 
 import './List.css';
 
-const List = () => {
-
+const List = ({todoData}) => {
+    const lists = todoData.map((l) =>{
+        return <ListItem key={l.id} list={l} />
+    });
     return (
-        <ul>
-            <ListItem />
-        </ul>
+        <div>
+            <p>Tasks to do</p>
+            <ul className="list">
+                {lists}
+            </ul>
+            </div>
     );
 };
 

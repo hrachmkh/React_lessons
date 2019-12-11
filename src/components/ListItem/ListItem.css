@@ -5,7 +5,6 @@ button:hover{
 li>button{
 	border-radius: 50%;
 	color: cornsilk;
-	border-radius: 50%;
 	background-image: url(./bg1.jpg);
 	color: cornsilk;
 }
@@ -16,4 +15,13 @@ input{
 	margin-right: 10px;
 	border-color: rgb(27, 2, 1);
 	outline: none;
+}
+li{
+	padding:5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+span{
+	padding-right:10px;
 }

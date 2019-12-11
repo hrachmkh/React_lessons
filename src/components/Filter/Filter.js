@@ -6,10 +6,11 @@ const Filter = () => {
 
     return (
         <div>
-            <input type='text' />
-            <button><i className='fa fa-search'></i></button>
-            <button>Active</button>
-            <button>Passive</button>
+            <input className='search' type='text' />
+            <button className="btn"><i className='fa fa-search'></i></button>
+            <button className='btn1'>Active</button>
+            <button className='btn1'>Passive</button>
+            <hr/>
         </div>
     );
 };
