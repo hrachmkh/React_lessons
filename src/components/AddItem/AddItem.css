@@ -5,8 +5,7 @@
 	background-image: url(./bg1.jpg);
 	font-size: 30px;
 	color: cornsilk;
-	outline: none;
-	
+	outline: hidden;	
 }
 textarea {
 	resize: none;
@@ -17,4 +16,5 @@ textarea {
 .adding{
 	display: flex;
 	align-items: center;
+	outline: none;
 }

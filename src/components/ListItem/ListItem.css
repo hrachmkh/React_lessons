@@ -21,7 +21,20 @@ li{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: aqua;
 }
 span{
 	padding-right:10px;
+}
+.important{
+    color: royalblue;
+    font-weight: bold;
+}
+.done{
+    color: rgb(228, 17, 17);
+    text-decoration: line-through;
+}
+
+.myList:hover{
+    cursor: pointer;
 }

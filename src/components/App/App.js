@@ -10,17 +10,26 @@ const data = [
     {
         id:1,
         title: 'Read the article',
-        isDone: true
+        isDone: true,
+        important: true
     },
     {
         id:2,
         title: 'Go to the GYM',
-        isDone: false
+        isDone: false,
+        important: false
     },
     {
         id:3,
         title: 'Do the lessons',
-        isDone: false
+        isDone: false,
+        important: true
+    },
+    {
+        id:4,
+        title: 'Enjoy life',
+        isDone: true,
+        important:false
     }
 ];
 

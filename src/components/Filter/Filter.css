@@ -2,6 +2,7 @@
     background-color: none;
     color: blanchedalmond;
     font-size: 20px;
+    outline: none;
 }
 .btn1:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -12,7 +13,6 @@
 	color: cornsilk;
 	border-radius: 50%;
 	background-image: url(./bg1.jpg);
-	color: cornsilk;
 }
 
 div{
